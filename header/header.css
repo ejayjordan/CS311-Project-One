@@ -1,4 +1,5 @@
 .container {
+    container-type: flex;
     position: relative;
     text-align: center;
     color:#F9F9F9;  
@@ -9,13 +10,16 @@
 }
 
 .container h1{
-    color:#F9F9F9;  
+    position: relative;
+    color:#F9F9F9;
+    max-width: 1500px;
+    width: auto;
 }
 
-.cornhp {
+#cornhp {
     position: absolute;
     top: -40%;
-    left: 11%;
+    left: 9%;
     font-size: 150px;
     letter-spacing: 100px;
     text-transform: uppercase;
@@ -23,6 +27,7 @@
 }
 
 .container a {
+    word-wrap: break-word;
     text-decoration: none;
     color:#F9F9F9;
     -webkit-text-stroke-width: 3px;
