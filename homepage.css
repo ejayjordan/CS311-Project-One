@@ -1,0 +1,29 @@
+body {
+    margin: 50px;
+    background-color: #f1ebe3;
+    color: #6883BA;
+}
+
+h1{
+    color: #6883BA;
+}
+
+h2 a{
+    color:#7CA982;
+}
+
+p {
+    color: #6883BA;
+    margin: 25px;
+    text-indent: 20px;
+    text-align: justify;
+    text-overflow: clip;
+}
+
+a {
+    color: #6883BA
+}
+
+a:hover {
+    color: #EFCA08;
+  }
