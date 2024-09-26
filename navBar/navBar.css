@@ -1,0 +1,43 @@
+.navBar{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+}
+.navBar ul{
+    list-style-type: none;
+    background-color: rgba(124, 169, 130, 0.8);
+    border-radius: 10px;
+    text-align: center;
+}
+.navBar ul li{
+    display: inline-block;
+    position: relative;
+}
+
+.navBar ul li a{
+    display: block;
+    padding: 10px;
+    color:#F9F9F9;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+.navBar ul li ul.dropdown li {
+    display:block;
+}
+.navBar ul li ul.dropdown{
+    width: 100%;
+    padding-left: 0px;
+    z-index: 999;
+    background-color: #7CA982;
+    position: absolute;
+    display: none;
+}
+.navBar ul li a:hover{
+    color:#EFCA08;
+}
+.navBar ul li:hover ul.dropdown{
+    display: block;
+}

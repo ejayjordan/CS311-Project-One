@@ -1,0 +1,31 @@
+.container {
+    position: relative;
+    text-align: center;
+    color:#F9F9F9;  
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.cornhp {
+    position: absolute;
+    top: -40%;
+    left: 11%;
+    font-size: 150px;
+    letter-spacing: 100px;
+    text-transform: uppercase;
+    text-shadow: 0 0 30px #F9F9F9, 0 0 5px #F9F9F9;
+}
+
+.container a {
+    text-decoration: none;
+    color:#F9F9F9;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #6883BA;
+}
+
+.container a :hover{
+    text-decoration: none;
+    color: #EFCA08;
+}

@@ -1,0 +1,16 @@
+body {
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #F9F9F9;
+    color: #6883BA;
+}
+
+a {
+    color: #6883BA
+}
+
+a:hover {
+    color: #EFCA08;
+  }
