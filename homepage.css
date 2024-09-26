@@ -8,7 +8,12 @@ h1{
     color: #6883BA;
 }
 
+h2{
+    text-indent: 10px;
+}
+
 h2 a{
+    text-indent: 10px;
     color:#7CA982;
 }
 
