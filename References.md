@@ -6,3 +6,7 @@ Dropdown/Navbar reference:
 Homepage Header reference:
 1) https://www.w3schools.com/howto/howto_css_image_text.asp
 2) https://www.geeksforgeeks.org/css-font-border/
+3) https://developer.mozilla.org/en-US/docs/Web/API/Window/matchMedia
+4) https://www.w3schools.com/howto/howto_js_media_queries.asp
+
+
