@@ -1,4 +1,4 @@
-fetch('/navBar.html')
+fetch('navBar.html')
 .then(res => res.text())
 .then(text => {
     let oldelem = document.querySelector("script#add_navBar");
