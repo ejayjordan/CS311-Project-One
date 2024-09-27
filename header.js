@@ -1,4 +1,4 @@
-fetch('/header/header.html')
+fetch('/header.html')
 .then(res => res.text())
 .then(text => {
     let oldelem = document.querySelector("script#add_header");
