@@ -6,3 +6,6 @@ fetch('header.html')
     newelem.innerHTML = text;
     oldelem.parentNode.replaceChild(newelem,oldelem);
 })
+
+let mql = window.matchMedia("id='header' (max-width:100%)");
+document.querySelector(".mql-value").innerText = mql.matches;

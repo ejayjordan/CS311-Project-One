@@ -9,14 +9,12 @@
     margin-right: 10px;
 }
 
-.header h1{
-    position: relative;
-    color:#F9F9F9;
-    max-width: 1500px;
-    width: auto;
+img {
+    width: 100%;
+    height: 400px;
 }
 
-#cornhp {
+#text {
     position: absolute;
     top: -40%;
     left: 9%;
@@ -24,6 +22,12 @@
     letter-spacing: 100px;
     text-transform: uppercase;
     text-shadow: 0 0 30px #F9F9F9, 0 0 5px #F9F9F9;
+}
+
+.header h1{
+    color:#F9F9F9;
+    max-width: 1500px;
+    width: auto;
 }
 
 .header a {
