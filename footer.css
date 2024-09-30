@@ -1,0 +1,12 @@
+.footer {
+    container-type: flex;
+    position: relative;
+    text-align: center;
+    color:#F9F9F9;
+    background-color: #7CA982;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 25px;
+}
