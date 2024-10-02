@@ -33,3 +33,36 @@ a {
 a:hover {
     color: #EFCA08;
   }
+
+
+.container{
+    container-type: flex;
+    position: relative;
+    max-width: 1500px;
+    max-height: 1500px;
+    margin-bottom: 425px;
+}
+
+.background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.foreground {
+    position: absolute;
+    left: 500px;
+}
+
+.corn {
+    position: absolute;
+    left: 500px;
+    z-index: 999;
+}
+
+#buttonCorn {
+    color:#6883BA;
+    padding: 25px;
+    margin-top: 50px;
+    margin-left: 690px;
+}
