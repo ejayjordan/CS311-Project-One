@@ -37,3 +37,10 @@ a:hover {
   ul {
     line-height: 30px;
   }
+
+  #cornimg1 {
+    display: block;
+    max-width: 50%;
+    max-height: 50%;
+    margin-right: 20px;
+  }

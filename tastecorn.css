@@ -40,27 +40,39 @@ a:hover {
     position: relative;
     max-width: 1500px;
     max-height: 1500px;
-    margin-bottom: 425px;
+    margin-bottom: 500px;
+    text-align: center;
 }
 
 .background {
     position: absolute;
-    width: 100%;
-    height: 100%;
+    display: block;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    flex-shrink: 1;
 }
 
 .foreground {
     position: absolute;
-    left: 500px;
+    display: block;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
 }
 
 .corn {
+    display: block;
     position: absolute;
-    left: 500px;
     z-index: 999;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
 }
 
 #buttonCorn {
+    display: block;
+    margin: auto;
     background-color: #7CA982;
     font-family: 'Times New Roman', Times, serif;
     font-size: 25px;
@@ -68,11 +80,11 @@ a:hover {
     border-width: 0px;
     color:#f1ebe3;
     padding: 25px;
-    margin-top: 50px;
-    margin-left: 680px;
+    flex-shrink: 1;
 }
 
 #buttonCorn:hover {
     color:#EFCA08;
     font-style: italic;
+    border-width: 0px;
 }

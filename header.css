@@ -1,7 +1,9 @@
 .header {
-    container-type: flex;
     position: relative;
+    display: flex;
     text-align: center;
+    justify-content: center;
+    align-items: center;
     color:#F9F9F9;  
     border-radius: 10px;
     margin-top: 50px;
@@ -16,12 +18,17 @@ img {
 
 #text {
     position: absolute;
+    display: block;
+    display: block;
+    left: 65%;
+    transform: translateX(-62%);
     top: -40%;
-    left: 9%;
     font-size: 150px;
     letter-spacing: 100px;
     text-transform: uppercase;
     text-shadow: 0 0 30px #F9F9F9, 0 0 5px #F9F9F9;
+    
+    
 }
 
 .header h1{
