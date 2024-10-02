@@ -33,3 +33,7 @@ a {
 a:hover {
     color: #EFCA08;
   }
+
+  ul {
+    line-height: 30px;
+  }
