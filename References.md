@@ -12,3 +12,11 @@ Homepage Header reference:
 Sounds:
 1) https://freesound.org/people/Reitanna/sounds/215324/
 2) https://freesound.org/people/theplax/sounds/608636/
+
+Images:
+1) https://pngimg.com/image/103541
+2) https://stock.adobe.com/search?k=sky
+3) https://pngtree.com/freepng/corn-grilled-cooking_14293520.html
+
+Changing Images
+1) https://www.youtube.com/watch?v=TXcjupbEst4
