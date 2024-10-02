@@ -1,7 +1,7 @@
 .header {
     position: relative;
     display: flex;
-    text-align: center;
+
     justify-content: center;
     align-items: center;
     color:#F9F9F9;  
@@ -19,16 +19,15 @@ img {
 #text {
     position: absolute;
     display: block;
-    display: block;
-    left: 65%;
-    transform: translateX(-62%);
-    top: -40%;
-    font-size: 150px;
-    letter-spacing: 100px;
+    max-width: 1500px;
+    white-space: pre-wrap;
+    word-break: break-word;
+    margin: auto;
+    font-size : clamp(1rem, 12vw, 20vh);
+    letter-spacing: clamp(2rem, 5vw, 5rem);
+    text-align: center;
     text-transform: uppercase;
     text-shadow: 0 0 30px #F9F9F9, 0 0 5px #F9F9F9;
-    
-    
 }
 
 .header h1{
@@ -38,7 +37,6 @@ img {
 }
 
 .header a {
-    word-wrap: break-word;
     text-decoration: none;
     color:#F9F9F9;
     -webkit-text-stroke-width: 3px;
