@@ -1,3 +1,4 @@
+// fetches html and assigns it to a div element that can call it
 fetch('footer.html')
 .then(res => res.text())
 .then(text => {

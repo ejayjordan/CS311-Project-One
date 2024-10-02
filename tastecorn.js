@@ -4,7 +4,7 @@ var crunch = new Audio("sounds/crunch.mp3");
 var burp = new Audio("sounds/burp.mp3");
 var img = document.getElementById('tooth')
 
-
+// onClick event that runs through an image array, plays a sound, and a secondary image set
 function eatCorn() {
     imgSeq=imgSeq+1;
     if (imgSeq == cornArray.length){
